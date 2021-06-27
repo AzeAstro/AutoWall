@@ -129,7 +129,7 @@ else:
                     command=f"feh --no-fehbg --bg-fill '{folder}/{imgname}'"
                 elif de=="afterstep":
                     command=f"fbsetbg {folder}/{imgname}"
-                elif de=="t":
+                elif de=="trinity":
                     command=f"dcop kdesktop KBackgroundIface setWallpaper 1 '{folder}/{imgname}' 6"
                 elif de=="mac":
                     command=f'osascript -e \'tell application "Finder" to set desktop picture to POSIX file "{folder}/{imgname}"'
